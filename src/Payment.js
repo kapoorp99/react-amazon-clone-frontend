@@ -132,7 +132,7 @@ function Payment() {
                             {/* Stripe magic will go */}
 
                             <form onSubmit={handleSubmit}>
-                                <CardElement onChange={handleChange}/>
+                                <CardElement onChange={handleChange} />
 
                                 <div className='payment__priceContainer'>
                                     <CurrencyFormat
